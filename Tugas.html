@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var MTK=85;
+        var BahasaIndonesia=78;
+        var BahasaInggris=75;
+        var IPA=83;
+        var Jumlah_Mapel=4;
+        var Remed="TIDAK LULUS";
+        var tidak_remed="LULUS";
+        document.write(MTK);
+        document.write("<br/>");
+        document.write(BahasaInggris); 
+        document.write("<br/>");
+        document.write(BahasaIndonesia);
+        document.write("<br/>");
+        document.write(IPA);
+        document.write("<br/>");
+        
+        var KKM=75;
+        document.write(KKM);
+        document.write("<br/>");
+        var rata_rata=(MTK + BahasaIndonesia + BahasaInggris + IPA) / Jumlah_Mapel;
+        document.write(rata_rata);
+        document.write("<br/>");
+
+        if(rata_rata>KKM){
+        document.write(tidak_remed);
+        }else{document.write(Remed)}
+
+        
+    </script>
+</body>
+</html>
