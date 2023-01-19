@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selen</h1>
+    <h2>
+    <script>
+        var Tiger={
+            nama :"Selen",
+            warna:"Hitam Dan Putih",
+            jumlah_kaki:4,
+            kelamin:"Betina",
+            mata:{
+                pupil_mata:"Hitam",
+                warna_mata:"Putih Dan Biru",
+            },
+            Dipanggil: function(){
+                return "Menghampiri";
+            },
+            Makan: function(){
+                return "Daging";
+            }
+        }
+        document.write("Saya punya Harimau,Namanya "+ Tiger.nama + "<br/>");
+        document.write("Dia Berwarna "+ Tiger.warna + "<br/>");
+        document.write("Selen Berkaki "+ Tiger.jumlah_kaki + "<br/>");
+        document.write("Dan dia berkelamin "+ Tiger.kelamin + "<br/>");
+        document.write("Warna mata Selen adalah "+ Tiger.mata.warna_mata +", Dengan warna pupil mata yang "+Tiger.mata.pupil_mata +"<br/>");
+        document.write("Ketika dipanggil dia "+ Tiger.Dipanggil() + "<br/>");
+        document.write("Makanan Selen adalah "+ Tiger.Makan() + "<br/>");
+    </script>
+    </h2>
+</body>
+</html>
