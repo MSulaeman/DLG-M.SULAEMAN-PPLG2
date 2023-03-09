@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+</head>
+<body >
+    <h1 style="background-color:rgb(238, 255, 0);text-align: center;color: #000000;border:2px solid black;">Form Registrasi</h1>
+    <form action="contact.php" method="POST">
+        <fieldset style="background-color: #FAEBD7;border:2px solid black">
+        <legend style="font-size:medium;">Registrasi</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..." />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your email..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Password..." />
+        </p>
+
+        <p>
+            <label>Umur:</label>
+            <input type="number" min="10" max="90" name="umur" placeholder="Umur...">
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Kelas:</label>
+            <select name="Kelas">
+                <option value="PPLG1">PPLG1</option>
+                <option value="PPLG2">PPLG2</option>
+                <option value="TJKT">TJKT</option>
+                <option value="TO">TO</option>
+            </select>
+        </p>
+        
+        <label for="favcolor">Warna:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <input type="submit" value="Submit">
+
+        <p>
+            <input type="submit" name="submit" value="Daftar" />
+        </p>
+        </fieldset>
+    </form>
+
+</body>
+</html>
